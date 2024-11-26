@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+
+        .box{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            
+            animation-name: animation2;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+        }
+        @keyframes animation2{
+            0%{
+                transform: translate(0px,0px);
+            }
+            25%{
+                transform: translate(500px,0px);
+            }
+            50%{
+                transform: translate(500px,500px);
+            }
+            75%{
+                transform: translate(0px,500px);
+            }
+            100%{
+                transform: translate(0px,0px);
+            }
+        }
+    </style> 
+</head>
+<body>
+    
+</body>
+</html>

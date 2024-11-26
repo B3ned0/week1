@@ -1,0 +1,23 @@
+h1 {
+    display: none;
+}
+
+.container-1{
+        background-color: blue
+        width: 50vw;
+        height: 50vw;
+        
+    }
+}
+
+/* sMART pHONE*/
+@media only screen and (max-width: 600px){
+    body{
+        background-color: purple
+    }
+    .Smartphone {
+        display: block;
+       
+    }
+}
+
